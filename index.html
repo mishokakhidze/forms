@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<div lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ფორმები</title>
+</head>
+<body>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <div>
+            <p>სახელი</p>
+            <input type="text" name="username" placeholder="username" tabindex="1">
+        </div>
+        <div>
+            <p>პაროლი</p>
+            <input type="password" name="password" placeholder="password" tabindex="2">
+        </div>
+        <div>
+            <p>ტელეფონი</p>
+            <input type="tel" name="phone" tabindex="3">
+        </div>
+        <div>
+            <p>სქესი</p>
+            <div>
+                <input tabindex="4" checked type="radio" name="gender" value="male">მამრობითი
+            </div>
+            <div>
+                <input tabindex="4" type="radio" name="gender" value="female">მდედრობითი
+            </div>
+        </div>
+        <div>
+            <p>ქონება</p>
+            <div>
+                <input tabindex="5" checked type="checkbox" name="bike" value="yes">ველოსიპედი
+            </div>
+            <div>
+                <input tabindex="6" type="checkbox" name="car" value="yes">მანქანა
+            </div>
+            <div>
+                <input tabindex="7" disabled type="checkbox" name="house" value="yes">სახლი
+            </div>
+        </div>
+        <div>
+            <p>დამატებითი ინფო</p>
+            <textarea tabindex="8" name="text"></textarea>
+        </div>
+        <div>
+            <p>ატვირთეთ ფოტო</p>
+            <input tabindex="9" type="file">
+        </div>
+        <div>
+            <p>საყვარელი ფერი</p>
+            <select tabindex="10" name="color">
+                <option value="red">წითელი</option>
+                <option value="green">მწვანე</option>
+                <option selected value="yellow">ყვითელი</option>
+            </select>
+        </div>
+        <div>
+            <p>მოქმედება</p>
+            <button tabindex="11" type="submit">გაგზავნა</button>
+            <button tabindex="12" type="reset">გასუფთავება</button>
+        </div>
+    </form>
+
+</body>
+</html>
